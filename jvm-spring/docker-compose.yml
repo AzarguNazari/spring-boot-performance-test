@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  native-image:
+    image: jvm-spring:0.0.1-SNAPSHOT
+    ports:
+      - "9091:8080"
